@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(175, 171, 171);
+    box-shadow: rgba(0, 0, 0, 1.5);
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 2em;
+    padding: 1em 0;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(69, 65, 65);
+    margin-left: 2em;
+    font-size: 1.5rem;
+}
+
+main{
+    text-align: center;
+    padding: 15em 0;
+    background-color: antiquewhite;
+}
+
+main h2{
+    background-color: rgb(17, 17, 17);
+    color:white;
+    padding: 1em 0;
+    margin-bottom: 2em;
+}
+
+button{
+    padding: 1em 3em;
+    background-color: transparent;
+    border-radius: 1em;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer;
+}
